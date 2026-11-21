@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%" fill="none" class="zentro-gold-logo-svg">
+  <defs>
+    <!-- 24K Luxury Gold Gradients -->
+    <linearGradient id="zentroGoldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="25%" stop-color="#FFD54F" />
+      <stop offset="50%" stop-color="#FFB300" />
+      <stop offset="75%" stop-color="#FFA000" />
+      <stop offset="100%" stop-color="#FF8F00" />
+    </linearGradient>
+
+    <linearGradient id="zentroGoldBright" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9C4" />
+      <stop offset="30%" stop-color="#FFE082" />
+      <stop offset="70%" stop-color="#FFC107" />
+      <stop offset="100%" stop-color="#FF8F00" />
+    </linearGradient>
+
+    <linearGradient id="zentroGoldDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA000" />
+      <stop offset="50%" stop-color="#FF8F00" />
+      <stop offset="100%" stop-color="#C47300" />
+    </linearGradient>
+
+    <linearGradient id="zentroTusk" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#FFF8E1" />
+      <stop offset="100%" stop-color="#FFE082" />
+    </linearGradient>
+
+    <linearGradient id="zentroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="60%" stop-color="#030712" />
+      <stop offset="100%" stop-color="#02040a" />
+    </linearGradient>
+
+    <radialGradient id="zentroRadialGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFB300" stop-opacity="0.35" />
+      <stop offset="40%" stop-color="#FF8F00" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Metallic Gold Glow Filter -->
+    <filter id="zentroGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Circular Outer Medallion Shield -->
+  <circle cx="100" cy="100" r="95" fill="url(#zentroBg)" />
+  <circle cx="100" cy="100" r="95" fill="url(#zentroRadialGlow)" />
+
+  <!-- Outer Gold Rim Borders -->
+  <circle cx="100" cy="100" r="93" stroke="url(#zentroGoldRim)" stroke-width="4.5" opacity="0.95" />
+  <circle cx="100" cy="100" r="87" stroke="url(#zentroGoldBright)" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.75" />
+  <circle cx="100" cy="100" r="83" stroke="url(#zentroGoldDark)" stroke-width="1" opacity="0.5" />
+
+  <!-- Ground Pedestal / Royal Lotus Base Curve -->
+  <path d="M 45 168 C 75 174 125 174 155 168 C 165 170 145 176 100 176 C 55 176 35 170 45 168 Z" fill="url(#zentroGoldDark)" opacity="0.8" />
+  <path d="M 52 165 L 148 165 C 140 167 60 167 52 165 Z" fill="url(#zentroGoldBright)" />
+
+  <!-- ==================== ELEPHANT BODY ==================== -->
+  <g filter="url(#zentroGlow)">
+
+    <!-- Elephant Tail -->
+    <path d="M 42 125 C 38 135 37 148 39 156 C 41 154 42 148 44 140 C 44 135 44 128 42 125 Z" fill="url(#zentroGoldDark)" />
+    <!-- Tail Tuft -->
+    <path d="M 38 153 C 35 156 36 160 39 161 C 42 160 41 156 39 153 Z" fill="url(#zentroGoldBright)" />
+
+    <!-- Back Left Leg (Distant) -->
+    <path d="M 46 130 L 49 164 L 60 164 L 59 135 Z" fill="url(#zentroGoldDark)" opacity="0.85" />
+    <ellipse cx="54.5" cy="164" rx="5.5" ry="2" fill="url(#zentroGoldDark)" />
+
+    <!-- Front Left Leg (Distant) -->
+    <path d="M 112 130 L 114 164 L 124 164 L 121 128 Z" fill="url(#zentroGoldDark)" opacity="0.85" />
+    <ellipse cx="119" cy="164" rx="5" ry="2" fill="url(#zentroGoldDark)" />
+
+    <!-- Elephant Main Body & Rump -->
+    <!-- From tail root (42, 120), arching over massive hindquarters (44, 98), back under saddle (75, 96), to high shoulder (108, 92) -->
+    <path d="M 42 122
+             C 40 102 52 92 75 92
+             C 90 92 105 88 116 95
+             C 126 102 132 108 135 116
+             C 134 122 130 126 126 128
+             L 126 165 L 112 165 L 112 136
+             C 98 138 82 138 68 134
+             L 68 165 L 54 165 L 53 130
+             C 47 132 43 128 42 122 Z"
+          fill="url(#zentroGoldBright)" />
+
+    <!-- Elephant Underbelly Shade / Muscle Definition -->
+    <path d="M 68 134 C 82 138 98 138 112 136 C 105 142 75 142 68 134 Z" fill="url(#zentroGoldDark)" />
+
+    <!-- Royal Caparison / Saddle Cloth (Jhool) with Intricate Patterns -->
+    <path d="M 64 96 C 85 94 105 96 112 100 L 110 128 C 98 134 78 134 66 128 Z" fill="url(#zentroGoldDark)" />
+    <!-- Jhool Gold Border & Scalloped Trim -->
+    <path d="M 64 96 L 112 100 L 110 128 Q 88 136 66 128 Z" stroke="url(#zentroGoldRim)" stroke-width="2" fill="none" />
+    <circle cx="73" cy="129" r="2.5" fill="url(#zentroGoldBright)" />
+    <circle cx="88" cy="132" r="3" fill="url(#zentroGoldBright)" />
+    <circle cx="103" cy="129" r="2.5" fill="url(#zentroGoldBright)" />
+    <!-- Royal Howdah Seat / Cushion on top -->
+    <path d="M 72 90 L 104 90 C 106 93 104 96 102 97 L 74 97 C 72 96 70 93 72 90 Z" fill="url(#zentroGoldBright)" stroke="url(#zentroGoldRim)" stroke-width="1.5" />
+    <!-- Tassels on saddle -->
+    <path d="M 73 131 L 73 136 M 88 135 L 88 141 M 103 131 L 103 136" stroke="url(#zentroGoldRim)" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Elephant Head & Forehead (Kumbham) -->
+    <path d="M 115 95
+             C 122 84 135 84 142 90
+             C 148 95 152 104 150 114
+             C 146 118 138 122 134 122
+             C 126 116 120 108 115 95 Z"
+          fill="url(#zentroGoldBright)" />
+
+    <!-- Royal Nettipattom (Golden Forehead Caparison of Kerala) -->
+    <path d="M 128 86 C 136 84 145 88 147 96 L 140 110 C 134 104 130 96 128 86 Z" fill="url(#zentroGoldRim)" />
+    <path d="M 132 89 L 143 96 M 133 95 L 141 102" stroke="#FFF9C4" stroke-width="1" stroke-linecap="round" />
+    <!-- Golden beaded crest atop head -->
+    <circle cx="135" cy="84" r="2" fill="#FFF9C4" />
+    <circle cx="140" cy="85" r="2.5" fill="#FFF9C4" />
+
+    <!-- Ear (Draped majestically) -->
+    <path d="M 120 95 C 124 96 127 106 125 116 C 122 124 116 124 114 118 C 112 110 115 100 120 95 Z" fill="url(#zentroGoldDark)" stroke="url(#zentroGoldRim)" stroke-width="1.2" />
+
+    <!-- Trunk (Gracefully curled up in triumph / blessing salute) -->
+    <path d="M 148 108
+             C 156 114 163 124 164 136
+             C 165 145 158 152 152 148
+             C 146 144 148 134 154 130
+             C 158 128 162 120 156 116
+             C 152 114 149 111 146 110 Z"
+          fill="url(#zentroGoldBright)" />
+
+    <!-- Curved Ivory Tusk (Gleaming white-gold) -->
+    <path d="M 139 116 C 148 117 158 115 165 106 C 158 112 148 113 138 120 Z" fill="url(#zentroTusk)" stroke="url(#zentroGoldBright)" stroke-width="0.8" />
+  </g>
+
+  <!-- ==================== HERO ARCHER ON TOP ==================== -->
+  <g filter="url(#zentroGlow)">
+
+    <!-- Archer Quiver & Arrows on Back -->
+    <path d="M 68 62 L 78 78 L 74 80 L 64 64 Z" fill="url(#zentroGoldDark)" />
+    <!-- Arrow Fletchings visible from quiver -->
+    <line x1="63" y1="63" x2="57" y2="55" stroke="url(#zentroGoldBright)" stroke-width="1.8" stroke-linecap="round" />
+    <line x1="66" y1="61" x2="62" y2="52" stroke="url(#zentroGoldBright)" stroke-width="1.8" stroke-linecap="round" />
+    <polygon points="57,55 54,54 56,58" fill="url(#zentroGoldRim)" />
+    <polygon points="62,52 59,51 61,55" fill="url(#zentroGoldRim)" />
+
+    <!-- Archer Royal Flowing Sash / Cape -->
+    <path d="M 70 70 C 58 72 52 78 48 85 C 55 82 62 80 72 78 Z" fill="url(#zentroGoldDark)" opacity="0.9" />
+    <path d="M 68 74 C 54 80 46 88 44 94 C 52 90 62 86 70 82 Z" fill="url(#zentroGoldBright)" opacity="0.75" />
+
+    <!-- Archer Legs (Seated / Kneeling firmly on royal howdah) -->
+    <!-- Rear leg -->
+    <path d="M 74 84 C 74 88 72 92 70 94 L 78 94 C 80 91 80 87 78 84 Z" fill="url(#zentroGoldDark)" />
+    <!-- Forward planted knee -->
+    <path d="M 82 80 C 86 80 92 82 96 88 L 102 88 C 98 81 90 77 82 77 Z" fill="url(#zentroGoldBright)" />
+
+    <!-- Archer Torso & Royal Armor (Armored breastplate, dynamic tension) -->
+    <path d="M 75 80 L 88 78 L 94 62 L 80 62 Z" fill="url(#zentroGoldBright)" />
+    <!-- Armored belt & sash -->
+    <rect x="76" y="77" width="14" height="3" rx="1.5" fill="url(#zentroGoldDark)" stroke="url(#zentroGoldRim)" stroke-width="0.8" />
+    <circle cx="83" cy="78.5" r="1.8" fill="#FFF9C4" />
+
+    <!-- Archer Head, Royal Turban / Helmet with Feathers -->
+    <circle cx="85" cy="53" r="6.5" fill="url(#zentroGoldBright)" />
+    <!-- Helmet visor / crown profile -->
+    <path d="M 82 48 C 86 45 92 46 94 51 C 94 54 91 56 87 56 Z" fill="url(#zentroGoldRim)" />
+    <!-- Majestic Warrior Crest Feather pointing backwards -->
+    <path d="M 84 47 C 80 41 73 38 68 39 C 74 42 79 45 82 48 Z" fill="url(#zentroGoldBright)" />
+
+    <!-- Archer Right Arm (Drawing the bowstring back to chin) -->
+    <path d="M 78 62 C 70 63 66 67 64 71 C 67 72 71 68 76 66 L 79 66 Z" fill="url(#zentroGoldBright)" />
+    <!-- Right Hand drawing string at cheek (anchor point at 79, 56) -->
+    <circle cx="80" cy="56" r="2.5" fill="url(#zentroGoldBright)" />
+
+    <!-- Archer Left Arm (Stretched out forward holding the bow grip) -->
+    <path d="M 88 62 L 106 56 L 107 60 L 89 66 Z" fill="url(#zentroGoldBright)" />
+    <!-- Left Hand clasping bow grip at (107, 57) -->
+    <circle cx="107" cy="57" r="2.8" fill="url(#zentroGoldRim)" />
+
+    <!-- ==================== ARCHERY BOW & ARROW ==================== -->
+    <!-- Recurve Bow (Classic majestic curve) -->
+    <!-- Top limb: from grip (107, 57) arching forward and up to tip (124, 25) -->
+    <!-- Bottom limb: from grip (107, 57) arching down and back to tip (114, 88) -->
+    <path d="M 124 25
+             C 118 34 110 44 107 57
+             C 105 70 109 80 114 88"
+          stroke="url(#zentroGoldRim)"
+          stroke-width="3.5"
+          stroke-linecap="round"
+          fill="none" />
+
+    <!-- Bow highlight core -->
+    <path d="M 123 27 C 118 35 110 45 107 57 C 105 69 108 78 113 86"
+          stroke="#FFF9C4"
+          stroke-width="1.2"
+          stroke-linecap="round"
+          fill="none" />
+
+    <!-- Bow Tips Ornamental Horns -->
+    <circle cx="124" cy="25" r="2.2" fill="url(#zentroGoldBright)" />
+    <circle cx="114" cy="88" r="2.2" fill="url(#zentroGoldBright)" />
+
+    <!-- Bowstring (Drawn into tight triangle from tips to archer's right hand at 80, 56) -->
+    <line x1="124" y1="25" x2="80" y2="56" stroke="#FFF9C4" stroke-width="1.2" opacity="0.95" />
+    <line x1="114" y1="88" x2="80" y2="56" stroke="#FFF9C4" stroke-width="1.2" opacity="0.95" />
+
+    <!-- The Golden Arrow (Nocked and aimed triumphantly upward at ~32 degrees toward victory) -->
+    <!-- From nock at (78, 57) through bow rest at (107, 56) to sharp broadhead tip at (136, 54) -->
+    <line x1="78" y1="57.5" x2="135" y2="54" stroke="#FFE082" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Arrowhead (Triangular broadhead) -->
+    <polygon points="142,53.5 133,50 135,54 133,57.5" fill="#FFFFFF" stroke="url(#zentroGoldRim)" stroke-width="1" />
+    <!-- Arrow Fletching feathers at nock -->
+    <path d="M 78 57.5 L 72 54 L 75 57.5 L 72 61 Z" fill="url(#zentroGoldRim)" />
+
+    <!-- Star Sparkle at Arrowhead Tip -->
+    <path d="M 142 53.5 Q 146 53.5 149 53.5 Q 146 53.5 146 50 Q 146 53.5 142 53.5 Q 146 53.5 146 57 Q 146 53.5 149 53.5 Z" fill="#FFFFFF" opacity="0.9" />
+    <circle cx="142" cy="53.5" r="1.5" fill="#FFF9C4" />
+  </g>
+
+  <!-- Arc Stars for Heraldic Excellence -->
+  <g fill="url(#zentroGoldBright)" opacity="0.85">
+    <polygon points="100,12 101.5,15.5 105,16 102.5,18.5 103,22 100,20 97,22 97.5,18.5 95,16 98.5,15.5" transform="scale(0.7) translate(42, -2)" />
+    <polygon points="100,12 101.5,15.5 105,16 102.5,18.5 103,22 100,20 97,22 97.5,18.5 95,16 98.5,15.5" transform="scale(0.55) translate(130, 24)" />
+    <polygon points="100,12 101.5,15.5 105,16 102.5,18.5 103,22 100,20 97,22 97.5,18.5 95,16 98.5,15.5" transform="scale(0.55) translate(-15, 24)" />
+  </g>
+</svg>
